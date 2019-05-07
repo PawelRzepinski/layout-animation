@@ -1,0 +1,21 @@
+.mainHeader__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.mainHeader__button span{
+    display: block;
+    width: 40px;
+    border-bottom: $borderFat;
+    margin: 5px 0;
+}
+
+.button--menu {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
