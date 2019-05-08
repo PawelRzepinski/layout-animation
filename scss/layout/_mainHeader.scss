@@ -1,5 +1,20 @@
 .mainHeader {
     position: relative;
     height: 80px;
-    border-bottom: $borderFat;
+    // border-bottom: $borderFat;
+}
+
+.mainHeader__border {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    width: 0;
+    height: 4px;
+    background-color: $greyColor;
+    transition: 3s;
+}
+
+.borderMove {
+    width: 88%;
 }
