@@ -1,0 +1,36 @@
+.menu {
+    width: 88%;
+    height: 0;
+    background-color: $greyColor;
+    margin-left: auto;
+    transition: 1s;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    line-height: 60px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.list__element {
+
+    a {
+        text-decoration: none;
+        color: $yellowColor;
+    }
+}
+
+.list__element:hover {
+
+    a{
+        color: white;
+    }
+}
+
+.showMenu {
+    height: 60px;
+}
